@@ -10,7 +10,6 @@ export default function Home() {
     rub.load(function () {
       console.log("Gif loaded");
     });
-    // Scroll
     let window_scroll_top =
       (document.documentElement && document.documentElement.scrollTop) ||
       document.body.scrollTop;
