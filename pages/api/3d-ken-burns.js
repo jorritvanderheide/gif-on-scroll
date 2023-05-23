@@ -22,7 +22,6 @@ const getKenBurns = async (imageUrl) => {
 
 export default async function handler(req, res) {
   const data = await getKenBurns(req.body.image);
-  console.log(data);
 
   res.status(201).json(data);
 }
